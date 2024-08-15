@@ -44,8 +44,8 @@ def runtxt(z):
 
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100089818537734"])
-	exit(" [*] FACEBOOK :  https://www.facebook.com/Aditto.Choudhury346?mibextid=ZbWKwL")
+	subprocess.check_output(["am", "start", "https://www.facebook.com/Ariyan.of.king143"])
+	exit(" [*] FACEBOOK :  https://www.facebook.com/Ariyan.of.king143?mibextid=ZbWKwL")
 
 
 def notice():
@@ -54,8 +54,8 @@ def notice():
 
 	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
 	runtxt("\033[0;93m SEND THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m ADMIN FACEBOOK >> ADI ")
-	subprocess.check_output(["am", "start", "https://www.facebook.com/Aditto.Choudhury346?mibextid=ZbWKwL"])
+	runtxt("\033[0;92m ADMIN FACEBOOK >> ARIYAN")
+	subprocess.check_output(["am", "start", "https://www.facebook.com/Ariyan.of.king143?mibextid=ZbWKwL"])
 
 
         
@@ -75,7 +75,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://github.com/ARIYAN-AHMED-143/ARIYAN-AHMED-143/blob/main/Approvel.txt').text
+			plr = requests.get('https://github.com/ARIYAN-AHMED-143/ARIYAN-CHOWDHURY/blob/main/Approvel.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;92mP R E M I U M")
